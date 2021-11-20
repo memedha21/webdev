@@ -1,0 +1,220 @@
+.CompanyLogo{
+  border-radius: 50%;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+  padding: .1% .1%;
+  width: 101%;
+}
+
+.topnav a {
+  float:center;
+  color: #ffffff;
+  text-align: center;
+  padding: 1% 1%;
+  text-decoration: none;
+  font-size: 160%;
+}
+
+.topnav a:hover {
+  background-color: #FFFF;
+  color: #000000;
+}
+
+.topnav a.active {
+  background-color: #999999;
+  color: white;
+}
+
+.SearchBar{
+  text-align: center  ;
+}
+.SearchBar input[type=text] {
+  padding: .4%;
+  border: none;
+  border-radius: 25px;
+  margin-top: .6%;
+  font-size: 105%;
+  width: 60%;
+}
+
+.SearchBar button {
+  position: absolute;
+  right: 18%;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: rgb(255, 0, 0);
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.SearchBar button:hover {
+  background: #0b7dda;
+}
+
+form.SearchBar::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.InformationBox{
+  color: #f5f5f5;
+  position: absolute;
+  left: .6%;
+  width: 69.5%;
+  padding: 1%;
+  border: 5px solid gray;
+  height:1120px;
+}
+
+.content{
+  color: #ffffff;
+  text-align: left;
+  position: absolute;
+  left: 10px;
+  width: 970px;
+  padding: 10px;
+  border: 5px solid gray;
+  height:130px;
+}
+.view1{
+  position: absolute;
+  left: 86%;
+  bottom: 87%;
+}
+
+.view2{
+  position: absolute;
+  left: 86%;
+  bottom:69%;
+}
+.view3{
+  position: absolute;
+  left: 86%;
+  bottom: 52%;
+}
+.view4{
+  position: absolute;
+  left: 86%;
+  bottom:32%;
+}
+.view5{
+  position: absolute;
+  left: 86%;
+  bottom: 12%;
+}
+.information{
+  text-align: left;
+  padding: 2%;
+  color: #f5f5f5;
+}
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+  position: absolute;
+  left: 70.4%;
+  bottom: 20%;
+  padding: 42px 25px;
+  width: 30%;
+  background: #ffffff;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: 000000;
+  font-size: 160%;
+  text-transform: uppercase;
+  letter-spacing: 3%;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 5%;
+}
+
+.month .next {
+  float: right;
+  padding-top: 5%;
+}
+
+.weekdays {
+  position: absolute;
+  left: 70.4%;
+  bottom: 14.5%;
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+  width: 30%;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  position: absolute;
+  left: 70.4%;
+  bottom: -15%;
+  padding: 10px 0;
+  background: #eee;
+  width: 30%;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13%;
+  padding:10px;
+  text-align: center;
+  font-size:15px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: #ffffff !important
+}
+
+.pagination{
+  position: absolute;
+  bottom: 1%;
+  right: 40%;
+}
+
+.pagination a {
+  color: #ffffff;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: #005A9C;
+  color: #ffffff;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+  width: 147.4%;
+}

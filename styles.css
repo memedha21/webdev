@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+body
+{
+  background-color:#333;
+  color:#fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font: normal 16px Arial, Helvetica, sans-serif;
+  line-height: 1.2em;
+  margin: 0;
+  border: 5px;
+  padding: 5px;
+}
+img{
+  width: 300px;
+  float: left;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    background-color: black;
+}
+.logo{
+  text-align: center;
+}
+.search {
+  text-align: center;
+  color: white;
+  box-sizing: border-box;
+}
+button{
+  position: absolute;
+  right: 18%;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: red;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+}
+header{
+  margin: 0;
+  padding: 0;
+  border:0;
+}
+footer{
+  background-color: #333;
+  text-align: left;
+  color: white;
+  padding: 10px;
+  flex-direction: column;
+  text-decoration: underline;
+}
+
+main{
+  background-color: white;
+  color: black;
+}
+.aside{
+  float: right;
+  display: block;
+  color: black;
+  font-family: sans-serif;
+  width: 30%;
+  padding: 20px;
+}
+.align li{
+  margin-right: 100px;
+  padding: 200px;
+  border: 10px;
+  border-color: black;
+}
+
+a{
+  text-decoration: underline;
+  color: white;
+}
+a:hover{
+    color: cyan;
+}
+
+a:visited{
+  color: white;
+}
+.heading{
+  text-decoration: underline;
+  text-align: left;
+}
